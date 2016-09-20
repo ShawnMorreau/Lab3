@@ -1,6 +1,7 @@
 import java.util.*;
 public class AddressBook {
-	ArrayList<BuddyInfo> buddyBook = new ArrayList<BuddyInfo>();
+	static BuddyInfo newBuddy;
+	static ArrayList<BuddyInfo> buddyBook;
 	public AddressBook(){
 		
 	}
@@ -16,5 +17,9 @@ public class AddressBook {
 	}
 	public static void main(String args[]){
 		System.out.println("Address Book");
+		newBuddy = new BuddyInfo();
+		buddyBook = new ArrayList<BuddyInfo>();
+		buddyBook.add(newBuddy);
+		buddyBook.remove(0);
 	}
 }
