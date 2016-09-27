@@ -18,7 +18,9 @@ public class BuddyInfo {
 	public String getName() {
 		return name;
 	}
-	
+	public void nothing(){
+		nothing();
+	}
 	public void setName(String name) {
 		this.name = name;
 	}
