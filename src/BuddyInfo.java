@@ -14,6 +14,7 @@ public class BuddyInfo {
 		this.address = address;
 		
 	}
+	//adding some random stuff here cause I was told to
 	public String getName() {
 		return name;
 	}
